@@ -6,7 +6,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import prism from 'react-syntax-highlighter/dist/esm/styles/prism/prism';
 import remarkGfm from 'remark-gfm';
 
-// 사용하지 않는 스타일
+// 사용하지 않는 스타일들
 import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
