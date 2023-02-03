@@ -1,0 +1,31 @@
+{
+  "name": "react-markdown",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "http://light9639.github.io/React-Markdown-TS",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^3.0.1",
+    "vite-tsconfig-paths": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
