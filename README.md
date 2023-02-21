@@ -19,7 +19,7 @@ npm create vite@latest
 yarn create vite
 ```
 - 터미널에서 실행 후 프로젝트 이름 만든 후 React 선택, Typescirpt-SWC 선택하면 생성 완료.
-## 🛺 react-markdown react-syntax-highlighter remark-gfm 라이브러리 설치
+## 🛺 'react-markdown', 'react-syntax-highlighter', 'remark-gfm' 라이브러리 설치
 - 프로젝트를 진행하려면 `react-markdown` 관련 라이브러리들을 치해서 진행해야 한다. 따라서 아래 명령어로 라이브러리를 설치한다.
 ```bash
 $ npm install react-markdown react-syntax-highlighter remark-gfm
