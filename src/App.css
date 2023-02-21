@@ -16,3 +16,23 @@
   padding: 20px;
   outline: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .textarea {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+  }
+
+  .markdown {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    height: 50vh;
+  }
+}
